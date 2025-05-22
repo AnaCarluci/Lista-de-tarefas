@@ -7,7 +7,7 @@ function adicionarTarefa() {
 
     const mensagem = document.getElementById("mensagem")
     
-     //se o valor do input for vazio, mostre uma mensagem de erro
+     
     if (tarefa == "") {
         let mensagemErro = "Digite uma tarefa para adicioná-la a sua lista!"
         mensagem.textContent = mensagemErro
